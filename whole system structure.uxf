@@ -1,0 +1,748 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.1.1">
+  <zoom_level>8</zoom_level>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>0</x>
+      <y>0</y>
+      <w>712</w>
+      <h>696</h>
+    </coordinates>
+    <panel_attributes>安卓客户端
+halign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>864</x>
+      <y>0</y>
+      <w>1120</w>
+      <h>432</h>
+    </coordinates>
+    <panel_attributes>服务器
+halign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>296</x>
+      <y>64</y>
+      <w>128</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>账户认证层
+halign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>552</x>
+      <y>64</y>
+      <w>144</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>通讯加密层
+halign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>416</x>
+      <y>64</y>
+      <w>152</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+带身份标识的请求</panel_attributes>
+    <additional_attributes>10.0;20.0;170.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>896</x>
+      <y>64</y>
+      <w>144</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>通讯解密层
+halign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>688</x>
+      <y>64</y>
+      <w>224</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+加密的信息</panel_attributes>
+    <additional_attributes>10.0;20.0;260.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>552</x>
+      <y>112</y>
+      <w>144</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>通讯解密层
+halign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>896</x>
+      <y>112</y>
+      <w>144</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>通讯加密层
+halign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>688</x>
+      <y>112</y>
+      <w>224</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+加密的信息</panel_attributes>
+    <additional_attributes>260.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>544</x>
+      <y>32</y>
+      <w>160</w>
+      <h>128</h>
+    </coordinates>
+    <panel_attributes>信息安全代理
+halign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>280</x>
+      <y>32</y>
+      <w>160</w>
+      <h>128</h>
+    </coordinates>
+    <panel_attributes>认证代理
+halign=center
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>416</x>
+      <y>240</y>
+      <w>128</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>网络控制器
+halign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>416</x>
+      <y>312</y>
+      <w>144</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>数据库控制器
+halign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>312</x>
+      <y>80</y>
+      <w>184</w>
+      <h>176</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+网络请求</panel_attributes>
+    <additional_attributes>210.0;200.0;210.0;40.0;10.0;40.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>536</x>
+      <y>128</y>
+      <w>152</w>
+      <h>144</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+网络回应</panel_attributes>
+    <additional_attributes>120.0;10.0;120.0;160.0;10.0;160.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>1056</x>
+      <y>32</y>
+      <w>888</w>
+      <h>256</h>
+    </coordinates>
+    <panel_attributes>路由框架
+halign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>1424</x>
+      <y>64</y>
+      <w>128</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>顶层路由
+halign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1040</x>
+      <y>64</y>
+      <w>400</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+带身份标识的请求</panel_attributes>
+    <additional_attributes>10.0;20.0;480.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>64</x>
+      <y>184</y>
+      <w>632</w>
+      <h>488</h>
+    </coordinates>
+    <panel_attributes>MVC框架
+halign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>1416</x>
+      <y>112</y>
+      <w>160</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>用户权限验证路由
+halign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1480</x>
+      <y>80</y>
+      <w>112</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+带身份标识的请求</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;40.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>1072</x>
+      <y>176</y>
+      <w>144</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>文件路由
+halign=center
+--
+文件上传
+文件下载</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>1240</x>
+      <y>176</y>
+      <w>144</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>User路由
+halign=center
+--
+用户注册
+用户登录
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>1416</x>
+      <y>176</y>
+      <w>144</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>Travel路由
+halign=center
+--
+旅程新增
+旅程删除
+旅程更新
+旅程查询</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>1584</x>
+      <y>176</y>
+      <w>144</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>TravelItem路由
+halign=center
+--
+相册新增
+相册删除
+相册更新
+相册查询</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>1760</x>
+      <y>176</y>
+      <w>144</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>Comment路由
+halign=center
+--
+评论新增
+评论删除
+评论更新
+评论查询</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1136</x>
+      <y>128</y>
+      <w>368</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>440.0;10.0;440.0;40.0;10.0;40.0;10.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1312</x>
+      <y>152</y>
+      <w>24</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1384</x>
+      <y>152</y>
+      <w>472</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;570.0;10.0;570.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1480</x>
+      <y>152</y>
+      <w>24</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1656</x>
+      <y>152</y>
+      <w>24</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>1800</x>
+      <y>320</y>
+      <w>104</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>数据库控制器
+valign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>1416</x>
+      <y>320</y>
+      <w>160</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>回应结果序列化层
+valign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>960</x>
+      <y>128</y>
+      <w>544</w>
+      <h>272</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>660.0;280.0;660.0;320.0;10.0;320.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>888</x>
+      <y>32</y>
+      <w>160</w>
+      <h>128</h>
+    </coordinates>
+    <panel_attributes>信息安全代理
+halign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1480</x>
+      <y>248</y>
+      <w>24</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;90.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1136</x>
+      <y>224</y>
+      <w>368</w>
+      <h>112</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;100.0;440.0;100.0;440.0;120.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1312</x>
+      <y>224</y>
+      <w>192</w>
+      <h>112</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;100.0;220.0;100.0;220.0;120.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1480</x>
+      <y>248</y>
+      <w>384</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>460.0;10.0;460.0;70.0;10.0;70.0;10.0;90.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1480</x>
+      <y>248</y>
+      <w>200</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>230.0;10.0;230.0;70.0;10.0;70.0;10.0;90.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>176</x>
+      <y>456</y>
+      <w>128</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>User
+halign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>176</x>
+      <y>496</y>
+      <w>128</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>Travel
+halign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>176</x>
+      <y>536</y>
+      <w>128</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>TravelItem
+halign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>176</x>
+      <y>576</y>
+      <w>128</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>Comment
+halign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>136</x>
+      <y>408</y>
+      <w>192</w>
+      <h>216</h>
+    </coordinates>
+    <panel_attributes>Modals
+halign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>136</x>
+      <y>216</y>
+      <w>528</w>
+      <h>136</h>
+    </coordinates>
+    <panel_attributes>Controllers
+halign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>304</x>
+      <y>264</y>
+      <w>128</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+本地缓存同步</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;80.0;140.0;80.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>184</x>
+      <y>240</y>
+      <w>144</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>序列化与反序列化控制器
+halign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>320</x>
+      <y>248</y>
+      <w>112</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+数据回应</panel_attributes>
+    <additional_attributes>120.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>320</x>
+      <y>232</y>
+      <w>112</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+请求数据</panel_attributes>
+    <additional_attributes>10.0;20.0;120.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>440</x>
+      <y>408</y>
+      <w>232</w>
+      <h>232</h>
+    </coordinates>
+    <panel_attributes>Views
+halign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>480</x>
+      <y>440</y>
+      <w>152</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>用户登录视图
+halign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>480</x>
+      <y>472</y>
+      <w>152</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>旅程视图
+halign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>480</x>
+      <y>504</y>
+      <w>152</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>相册视图
+halign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>480</x>
+      <y>536</y>
+      <w>152</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>评论视图
+halign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>480</x>
+      <y>568</y>
+      <w>152</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>评论视图
+halign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>480</x>
+      <y>600</y>
+      <w>152</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>广场视图
+halign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>192</x>
+      <y>264</y>
+      <w>352</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+数据变更事件</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;160.0;420.0;160.0;420.0;180.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>320</x>
+      <y>480</y>
+      <w>136</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+变更数据</panel_attributes>
+    <additional_attributes>150.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>240</x>
+      <y>264</y>
+      <w>328</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+用户事件</panel_attributes>
+    <additional_attributes>390.0;180.0;390.0;130.0;10.0;130.0;10.0;10.0</additional_attributes>
+  </element>
+</diagram>
