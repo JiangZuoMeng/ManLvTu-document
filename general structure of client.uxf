@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.1.1">
+  <zoom_level>11</zoom_level>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>198</x>
+      <y>121</y>
+      <w>484</w>
+      <h>495</h>
+    </coordinates>
+    <panel_attributes>安卓客户端
+halign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>396</x>
+      <y>187</y>
+      <w>132</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+带身份标识的请求</panel_attributes>
+    <additional_attributes>10.0;20.0;100.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>506</x>
+      <y>165</y>
+      <w>165</w>
+      <h>99</h>
+    </coordinates>
+    <panel_attributes>信息安全代理
+halign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>275</x>
+      <y>165</y>
+      <w>132</w>
+      <h>99</h>
+    </coordinates>
+    <panel_attributes>认证代理
+halign=center
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>330</x>
+      <y>253</y>
+      <w>88</w>
+      <h>99</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+网络请求</panel_attributes>
+    <additional_attributes>10.0;70.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>396</x>
+      <y>253</y>
+      <w>253</w>
+      <h>121</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+网络回应</panel_attributes>
+    <additional_attributes>160.0;10.0;160.0;90.0;10.0;90.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>242</x>
+      <y>319</y>
+      <w>418</w>
+      <h>275</h>
+    </coordinates>
+    <panel_attributes>MVC框架
+halign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>517</x>
+      <y>462</y>
+      <w>121</w>
+      <h>99</h>
+    </coordinates>
+    <panel_attributes>Modals
+halign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>275</x>
+      <y>330</y>
+      <w>132</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes>Controllers
+halign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>275</x>
+      <y>462</y>
+      <w>132</w>
+      <h>99</h>
+    </coordinates>
+    <panel_attributes>Views
+halign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>396</x>
+      <y>352</y>
+      <w>220</w>
+      <h>132</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+数据变更事件</panel_attributes>
+    <additional_attributes>10.0;20.0;180.0;20.0;180.0;100.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>396</x>
+      <y>385</y>
+      <w>176</w>
+      <h>99</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+变更数据</panel_attributes>
+    <additional_attributes>10.0;20.0;140.0;20.0;140.0;70.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>363</x>
+      <y>407</y>
+      <w>88</w>
+      <h>77</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+用户事件</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>660</x>
+      <y>165</y>
+      <w>297</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+加密的信息</panel_attributes>
+    <additional_attributes>10.0;20.0;250.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>660</x>
+      <y>209</y>
+      <w>297</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+加密的信息</panel_attributes>
+    <additional_attributes>250.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>286</x>
+      <y>407</y>
+      <w>88</w>
+      <h>77</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+更新事件</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;50.0</additional_attributes>
+  </element>
+</diagram>
